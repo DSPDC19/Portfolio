@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
+
+html{
+    background-image: url(../img/fondo.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    font-family:'Inter Regular' , sans-serif;
+    width: 700px;
+  }
+
+.contenedor {
+    width: 100%;
+    overflow: hidden; 
+  }
+
+  .seccion1 {
+    width: 40%;
+    float: left; 
+  }
+
+  .seccion2 {
+    width: 60%;
+    float: left; 
+  }
+
+  .ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  h1{
+    font-size: 43px;
+    margin: 0;
+    padding: 0;
+  }
+
+  h2{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  .padding-left{
+    padding-left: 50px;
+  }
+
+  .padding-seccion2{
+    padding-right: 20px;
+    padding-left: 40px;
+  }
+
+  .padding-top{
+    padding-top: 10px;
+  }
+  .padding-top-seccion1{
+    padding-top: 20px;
+  }
+  .padding-top-seccion2{
+    padding-top: 50px;
+  }
+
+  .img-persona{
+    width: 200px;
+    padding: 0 0px 5px 50px;
+  }
+
+  .resaltador{
+    color: #000;
+    text-decoration:none;
+    display:block;
+    padding:5px 10px 5px 10px;
+    text-align:center;
+    background-color:#FFEDEF;
+    font-family:'Inter Medium', sans-serif;
+    margin: 0px 20px 0px 20px;
+  }
+
+  .center{
+    text-align: center;
+  }
